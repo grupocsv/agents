@@ -1,7 +1,7 @@
 # WRITING_RULES.md
 
 <contexto>
-Este arquivo é uma **camada adicional de contexto** que complementa qualquer AGENTS.md, CLAUDE.md, .cursorrules ou system prompt já existente. Ele não substitui nem conflita com instruções de projeto ou repositório. Seu escopo é exclusivamente linguístico e estilístico: define como o texto deve ser escrito, formatado e entregue em nome de Guilherme Thomé e do Grupo CSV. Deve ser carregado junto ao início de qualquer sessão de trabalho, independentemente da ferramenta ou agente utilizado.
+Este arquivo é uma **camada adicional de contexto** que complementa qualquer AGENTS.md, CLAUDE.md, .cursorrules ou system prompt já existente. Ele não substitui nem conflita com instruções de projeto ou repositório. Seu escopo é exclusivamente linguístico e estilístico: define como o texto deve ser escrito, formatado e entregue em nome de Guilherme Thomé e do Grupo CSV. Aplica-se a todo o ecossistema — incluindo entregas para Unimed, ICDS, Unihealth, AxiaCare, MedValor, Thera e qualquer outro contexto. Deve ser carregado junto ao início de qualquer sessão de trabalho, independentemente da ferramenta ou agente utilizado.
 </contexto>
 
 <idioma>
@@ -35,11 +35,12 @@ Quando houver dúvida sobre a grafia de nomes próprios, projetos ou instituiç�
 <capitalizacao>
 ## Capitalização (Title Case PT-BR)
 
-Para entregáveis das marcas próprias do Grupo CSV (AxiaCare, MedValor, Thera), aplica-se Title Case em:
+Aplica-se Title Case em **todos os entregáveis do ecossistema** (Grupo CSV, AxiaCare, MedValor, Thera, Unimed, ICDS, Unihealth e qualquer outro contexto) nos seguintes elementos:
 - Títulos de seção e subtítulos
-- Cabeçalhos de tabela
+- Cabeçalhos de tabela (todas as colunas)
 - Legendas de figuras
 - Rótulos e badges
+- Assuntos de e-mail
 
 **Regra:**
 Capitalizar palavras principais (substantivos, verbos, adjetivos, advérbios, pronomes). Manter em minúsculo os conectivos curtos: de, e, em, da, do, com, para, por, que, a, o, as, os.
@@ -50,13 +51,33 @@ Capitalizar palavras principais (substantivos, verbos, adjetivos, advérbios, pr
 - Rótulos institucionais ("Edição-Mestra", "Uso Interno") são tratados como nomes próprios.
 - Prosa corrida (parágrafos, corpo de texto) segue sentence case padrão do PT-BR.
 
-**Escopo de NÃO aplicação:** Entregáveis da Unimed, ICDS e Unihealth seguem seus próprios manuais de marca.
-
 **Exemplos:**
 - Correto: "Relatório de Desempenho para o Escritório de Valor em Saúde"
 - Incorreto: "Relatório de desempenho para o escritório de valor em saúde"
 - Incorreto: "Relatório De Desempenho Para O Escritório De Valor Em Saúde"
 </capitalizacao>
+
+<pontuacao>
+## Pontuação e Convenções Tipográficas
+
+**Travessão (—):**
+- Usar travessão (em-dash) para inserções explicativas, nunca hífen duplo (--).
+- Após travessão em início de fala ou enumeração, a primeira letra é maiúscula.
+- Exemplo: "O resultado foi claro — Redução de 18% na taxa de reinternação."
+
+**Dois pontos (:):**
+- Após dois pontos, a primeira letra é maiúscula quando introduz uma frase completa ou item de destaque.
+- Exemplo: "Decisão: Migração para o novo sistema aprovada pela diretoria."
+- Exceção: quando seguido de enumeração simples em minúsculo (ex.: "ingredientes: farinha, água, sal").
+
+**Ponto e vírgula (;):**
+- Usar para separar itens complexos em enumerações ou orações coordenadas extensas.
+- Após ponto e vírgula, minúscula (exceto nomes próprios).
+
+**Aspas:**
+- Usar aspas duplas (" ") para citações diretas e títulos de artigos.
+- Usar aspas simples (' ') apenas para citação dentro de citação.
+</pontuacao>
 
 <acentuacao>
 ## Acentuação e Controle de Qualidade
@@ -89,9 +110,19 @@ Capitalizar palavras principais (substantivos, verbos, adjetivos, advérbios, pr
 - Off-Brand: "manual de infraestrutura para o sistema de gestão"
 - On-Brand: "Manual de Infraestrutura para o Sistema de Gestão"
 
+**Cabeçalho de tabela:**
+- Off-Brand: "nome do procedimento | data de realização | valor total"
+- On-Brand: "Nome do Procedimento | Data de Realização | Valor Total"
+
+**Travessão e dois pontos:**
+- Off-Brand: "O resultado foi claro - redução de 18% na taxa."
+- On-Brand: "O resultado foi claro — Redução de 18% na taxa."
+- Off-Brand: "decisão: migração aprovada."
+- On-Brand: "Decisão: Migração aprovada pela diretoria."
+
 **Resumo executivo:**
 - Off-Brand: "A reunião foi muito produtiva e o pessoal decidiu que a gente vai usar o novo sistema."
-- On-Brand: "Decisão: migração para o novo sistema de autenticação aprovada pela diretoria."
+- On-Brand: "Decisão: Migração para o novo sistema de autenticação aprovada pela diretoria."
 
 **Precisão terminológica:**
 - Off-Brand: "Muitos estudos mostram que isso funciona."
